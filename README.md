@@ -31,7 +31,7 @@ This project aimed to simulate a small enterprise network. it includes a firewal
 - Hosts window client and AD server. it presents typical enterprise environment where Authentication, policies and endpoint activity occur.
 ### pfSense Firewall - Security and Routing Layer
 - it sits between all network and internet, providing:
-   - Netowork segement
+   - Network segement
    - Firewall rules
    - NAT
    - Traffic control
