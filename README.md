@@ -22,7 +22,20 @@ This project aimed to simulate a small enterprise network. it includes a firewal
 | Offensive Security Machine | Kali Linux VM                                       |
 
 ---
+## Network Segementation Overview
 
+![Network Diagram](img/Net-diagram.png)
+ ### LAN 0- Attack Network
+- Kali Linux is isolated for penetration testing, vulnerability scanning and simulating adversarial activity.
+### LAN 1 - Production Network
+- Hosts window client and AD server. it presents typical enterprise environment where Authentication, policies and endpoint activity occur.
+### pfSense Firewall - Security and Routing Layer
+- it sits between all network and internet, providing:
+   - Netowork segement
+   - Firewall rules
+   - NAT
+   - Traffic control
+   - Isolation between attacker and production networks
 ##  What I Built
 - Installled and configured VM as the virtualization platform
 - Deployed **pfSense** and configured internal network, firewall rules and routing
