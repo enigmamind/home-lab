@@ -46,8 +46,14 @@ This project aimed to simulate a small enterprise network. it includes a firewal
    - Users, groups and Organizational Units
    - Group policies
   - Installed **Win 11**, joined it to the domain, and applied domain policies
-  - Installed **Sysmon** with a modular configuration to generate detailed endpoint telemetry
-  - Deployed **Splunk** on win 11 for log ingestion and analysis
+- Installed **Sysmon** with a modular configuration to generate detailed endpoint telemetry
+     ![Sysmom config](img/sysmon_installation.jpg)
+  > The sysmon configured in Win 11 client captured the sysmon events
+- Deployed **Splunk** on win 11 for log ingestion and analysis
+     ![Splunk Home](img/splunk_home.jpg)
+    > The splunk home interface
+    ![Splunk Data](img/data_ingestion.jpg)
+    > Execution of ipconfig was captured by sysmon on win 11 endpoint. i queried splunk using the search term "ipconfig" to retrieve and analyze the corresponding process creation events.
   - Installed **Kali Linux** for Pen-testing and network assessement practice
 
   ---
