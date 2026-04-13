@@ -39,7 +39,9 @@ This project aimed to simulate a small enterprise network. it includes a firewal
 ##  What I Built
 - Installled and configured VM as the virtualization platform
 - Deployed **pfSense** and configured internal network, firewall rules and routing
+   ![Pfsense](img/Ecorp_pfsense.jpg)
 - Installed **Window Server**, promoted it to a **Domain Controller** and configured:
+   ![Active Server](img/AD_Server.jpg)
    - Active Directory
    - Users, groups and Organizational Units
    - Group policies
